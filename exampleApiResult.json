@@ -1,0 +1,354 @@
+{  
+   "pagination":{  
+      "numFound":1109,
+      "limit":10,
+      "start":0
+   },
+   "items":{  
+      "dc":[  
+         {  
+            "title":[  
+               "Creamy & crunchy: an informal history of peanut butter, the all-American food",
+               "Creamy and crunchy"
+            ],
+            "creator":"Krampner, Jon , 1952-",
+            "type":[  
+               "Text",
+               "bibliography",
+               "History."
+            ],
+            "publisher":"Columbia University Press",
+            "language":"eng",
+            "format":[  
+               "print",
+               "xv, 298 p. : ill. ; 24 cm."
+            ],
+            "description":[  
+               "\"Creamy and Crunchy feature stories of Jif, Skippy, Peter Pan; the plight of black peanut farmers; the resurgence of natural or old-fashioned peanut butter; the reasons why Americans like peanut butter better than (almost) anyone else; the five ways that today's product is different from the original; the role of peanut butter in fighting Third World hunger; and the Salmonella outbreaks of 2007 and 2009, which threatened peanut butter's sacred place in the American cupboard. To a surprising extent, the story of peanut butter is the story of twentieth-century America, and Jon Krampner writes its first popular history, rich with anecdotes and facts culled from interviews, research, travels in the peanut-growing regions of the South, personal stories, and recipes.\"--Provided by publisher.",
+               "Peanuts -- The social rise of the peanut -- The birth of peanut butter -- Peter Pan : \"improved by hydrogenation\" -- How Peter Pan lost its groove -- Skippy : \"he made his first jar of peanut butter in his garage\" -- Skippy on top -- Jif : \"but is it still peanut butter?\" -- \"Choosy moms choose...\" -- Peanut butter goes international -- The music of peanut butter -- Deaf Smith : what's old-fashioned is new again -- The rise and fall of the florunner -- The peanut butter crisis of 1980 -- \"You mean it's not good for me?\" -- The short, happy life of Sorrells Pickard -- Peanut Corporation of America : \"there was no red flag\" -- Peanut butter saves the world -- Where are the peanut butters of yesteryear? -- Appendix 1: Author's recommendations -- Appendix 2: Peanut butter time line.",
+               "Jon Krampner.",
+               "Includes bibliographical references (p. [245]-282) and index."
+            ],
+            "subject":[  
+               "Peanut butter--History",
+               "Peanut butter--United States--History",
+               "Technology -- Home economics -- Cooking -- Vegetables (Preparation)",
+               "TX803.P35 K73 2013",
+               "641.3/56596"
+            ],
+            "coverage":"United States",
+            "relation":"Arts and traditions of the table",
+            "identifier":[  
+               "9780231162326 (cloth : alk. paper)",
+               "0231162324 (cloth : alk. paper)",
+               "isbn:Â 9780231530934 (e-book)",
+               "isbn:Â 0231530935 (e-book)",
+               "lccn:Â 2012008529",
+               "librarycloud: 013634709"
+            ]
+         },
+         {  
+            "title":"Peanut growing for profit",
+            "creator":"Beattie, W. R. (William Renwick) , 1870-",
+            "type":"Text",
+            "publisher":"U.S. Dept. of Agriculture",
+            "language":"eng",
+            "format":[  
+               "print",
+               "33 p. : ill., 1 map ; 23 cm."
+            ],
+            "description":[  
+               "\"Peanuts have become one of the best money crops for use in rotation with cotton and other farm crops in the fight against the boll weevil. Until recently peanuts were grown in the greater part of the gulf coast region primarily for stock feeding, but now they are of commercial importance in no less than 12 Southern states. Good seed, proper preparation of the soil, frequent cultivation of the crop, proper harvesting and curing and grading the product according to standard grades are the main essentials to the realization of a profit from peanuts. Most failures have been due to the neglect of one or more of the above essentials. Many losses have resulted from the practice of windrowing the peanut vines for curing instead of stacking them around small poles. Peanuts are in increasing demands for oil manufacture and for making many other peanut products. It is always safe for the Southern farmer to grow peanuts, as every part of the crop can be used to advantage for feeding on the farm in case the market does not justify their sale. A closer working relation between growers and dealers is desirable, and the establishment of standard grades will do much towards stabilizing the industry.\"--Page [2].",
+               "Conditions necessary for peanut growing -- Selection and preparation of the soil -- Fertilizers -- Peanut seed and its care -- Time and methods of planting --Cultivation -- Harvesting, stacking and curing -- Picking and cleaning -- Peanuts and peanut by-products as stock feed -- Varieties of peanuts -- Value of peanuts as a money crop -- Cooperation among peanut growers -- The politics of peanut growers.",
+               "W.R. Beattie.",
+               "Cover title.",
+               "\"Contribution from the Bureau of Plant Industry.\"",
+               "\"Issued July 20, 1920; repr. Nov. 1920.\""
+            ],
+            "subject":[  
+               "Peanuts",
+               "Agriculture -- Agriculture (General) -- Documents and other collections -- United States",
+               "S21.A6 no. 1127"
+            ],
+            "relation":"Farmers' bulletin / United States Department of Agriculture ; no. 1127",
+            "identifier":"librarycloud: 006109122"
+         },
+         {  
+            "title":"Peanut research",
+            "contributor":[  
+               "National Peanut Council",
+               "Georgia Agricultural Commodity Commission for Peanuts",
+               "American Peanut Research and Education Association",
+               "American Peanut Research and Education Society"
+            ],
+            "type":[  
+               "Text",
+               "periodical"
+            ],
+            "date":"1963-9999",
+            "publisher":"American Peanut Research and Education Society",
+            "language":"eng",
+            "format":[  
+               "print",
+               "v. : ill. ; 28 cm."
+            ],
+            "description":[  
+               "APRES.",
+               "Began in May 1963.",
+               "Description based on: Vol. 21, issue 87 (July-Sept. 1983); title from caption.",
+               "Vols. for 1963-July 1972 issued by: National Peanut Council; Sept. 1972-Nov. 1973 by: Georgia Agricultural Commodity Commission for Peanuts, for: American Peanut Research and Educational Association; Jan. 1974-Apr./June 1979 by: American Peanut Research and Education Association; July/Sept. 1979- by: American Peanut Research and Education Society."
+            ],
+            "subject":[  
+               "American Peanut Research and Education Society",
+               "Peanuts",
+               "Peanuts--Periodicals"
+            ],
+            "identifier":[  
+               "issn:Â 0479-7558",
+               "lccn:Â sn 83010504",
+               "librarycloud: 000373965"
+            ]
+         },
+         {  
+            "title":[  
+               "The Peanut grower",
+               "Peanut grow"
+            ],
+            "type":[  
+               "Text",
+               "periodical"
+            ],
+            "date":"1989-9999",
+            "publisher":"Agri-Publications",
+            "language":"eng",
+            "format":[  
+               "print",
+               "v. : ill. ; 28 cm."
+            ],
+            "description":[  
+               "Began in Apr. 1989.",
+               "Description based on: Vol. 2, no. 3 (Apr. 1990); title from cover.",
+               "Apr. 1989 issue also called 1st ed."
+            ],
+            "subject":[  
+               "Peanuts--Marketing",
+               "Peanuts--United States--Marketing--Periodicals",
+               "Peanut industry",
+               "Peanut industry--United States--Periodicals",
+               "Peanuts",
+               "Peanuts--Periodicals",
+               "Peanuts--Breeding--Research",
+               "Peanuts--Breeding--Research--Periodicals",
+               "633"
+            ],
+            "coverage":[  
+               "United States",
+               "United States"
+            ],
+            "identifier":[  
+               "issn:Â 1042-9379",
+               "lccn:Â sn 89006362",
+               "librarycloud: 001912269"
+            ]
+         },
+         {  
+            "title":[  
+               "The Peter Pan peanut butter cook book",
+               "Peanut butter cook book"
+            ],
+            "type":[  
+               "Text",
+               "text",
+               "Cookbooks."
+            ],
+            "publisher":"Derby Foods",
+            "language":"eng",
+            "format":[  
+               "print",
+               "26 pages : illustrations ; 21 cm",
+               "unmediated",
+               "volume"
+            ],
+            "description":[  
+               "Booklet promoting Derby Foods Inc.'s Peter Pan brand crunchy and smooth peanut butter.",
+               "Title from cover."
+            ],
+            "subject":[  
+               "Cooking (Peanut butter)",
+               "Cooking (Peanut butter)",
+               "Peanut butter",
+               "Technology -- Home economics -- Cooking -- Beverages",
+               "TX815.5.P38 P48 1963"
+            ],
+            "identifier":"librarycloud: 014327024"
+         },
+         {  
+            "title":"It's easy to be a gourmet with saucy peanuts: and other fine Oklahoma peanut recipes!",
+            "contributor":"Oklahoma Peanut Commission",
+            "type":[  
+               "Text",
+               "text",
+               "Cookbooks."
+            ],
+            "publisher":"Oklahoma Peanut Commission",
+            "language":"eng",
+            "format":[  
+               "print",
+               "29 pages : color illustrations ; 23 cm",
+               "unmediated",
+               "volume"
+            ],
+            "description":"Cover title.",
+            "subject":[  
+               "Cooking (Peanuts)",
+               "Cooking (Peanuts)",
+               "Technology -- Home economics -- Cooking -- Vegetables (Preparation)",
+               "TX803.P35 I8 1970z"
+            ],
+            "identifier":"librarycloud: 014281079"
+         },
+         {  
+            "title":"Peanut industry pamphlets, 1939-1946",
+            "contributor":[  
+               "Wrenshall, Charlton Lewis , 1910-",
+               "United States Bureau of Agricultural Economics.",
+               "Southern Research Institute (Birmingham, Ala.)",
+               "National Peanut Council"
+            ],
+            "type":"Text",
+            "date":"1925-1952",
+            "language":"eng",
+            "format":[  
+               "print",
+               "1 v. ; 29 cm."
+            ],
+            "description":"[no.1-3] Peanuts, revised estimates : acreage, yield, production and disposition by states and estimated commercial production by areas, 1919-1938 / United States Department of Agriculture, Bureau of Agricultural Economics (1939) -- A survey of the research status of the peanut industry / conducted and compiled under the direction of C. Lewis Wrenshall [1946?] -- The National Peanut Council, Incorporated in a war time program, 1942-1943 / National Peanut Council [1943?]",
+            "subject":[  
+               "Peanuts",
+               "Peanut industry",
+               "Agriculture -- Plant culture -- Vegetables -- Culture of individual vegetables or types of vegetables"
+            ],
+            "identifier":"librarycloud: 006720644"
+         },
+         {  
+            "title":[  
+               "Coordination of research on Peanut Stripe Virus: summary proceedings of the First Meeting to Coordinate Research on Peanut Stripe Disease of Groundnut : held at Malang Research Institute for Food Crops (MARIF) ... 9-12 June 1987",
+               "First coordinator's meeting on peanut striped virus"
+            ],
+            "creator":"Meeting to Coordinate Research on Peanut Stripe Virus Disease of Groundnut 1987 : Malang, Indonesia)",
+            "contributor":[  
+               "Balai Penelitian Tanaman Panang Malang",
+               "Indonesia Badan Penelitian dan Pengembangan Pertanian.",
+               "International Crops Research Institute for the Semi-arid Tropics",
+               "Balai Penelitian Tanaman Pangan Malang"
+            ],
+            "type":[  
+               "Text",
+               "conference publication",
+               "Conference proceedings."
+            ],
+            "publisher":"ICRISAT",
+            "language":"eng",
+            "format":[  
+               "print",
+               "26 p. ; 24 cm."
+            ],
+            "description":[  
+               "sponsored by Agency for Agricultural Research and Development (AARD), Ministry of Agriculture, Indonesia ... [et al.].",
+               "Title on cover: First coordinator's meeting on Peanut stripe virus.",
+               "Includes bibliographical references."
+            ],
+            "subject":[  
+               "Peanuts--Diseases and pests",
+               "Peanuts--Diseases and pests--Congresses",
+               "Virus diseases of plants",
+               "Virus diseases of plants--Congresses",
+               "Agriculture -- Plant culture -- Pests and diseases",
+               "SB608.P37 M44 x, 1987"
+            ],
+            "relation":"Coordination of research on peanut stripe virus--(OCoLC)685223791",
+            "identifier":[  
+               "isbn:Â 9290661437",
+               "librarycloud: 001644260"
+            ]
+         },
+         {  
+            "title":"Peanut science and technology",
+            "contributor":[  
+               "Pattee, Harold E.",
+               "Young, Clyde T. (Clyde Thomas) , 1930-",
+               "American Peanut Research and Education Society"
+            ],
+            "type":[  
+               "Text",
+               "bibliography"
+            ],
+            "publisher":"American Peanut Research and Education Society",
+            "language":"eng",
+            "format":[  
+               "print",
+               "viii, 825 p. : ill. ; 24 cm."
+            ],
+            "description":[  
+               "edited by Harold E. Pattee and Clyde T. Young.",
+               "Rev. ed. of: Peanuts--culture and uses. 1973.",
+               "Includes bibliographies and indexes."
+            ],
+            "subject":[  
+               "Peanuts",
+               "Peanut products",
+               "Agriculture -- Plant culture -- Vegetables -- Culture of individual vegetables or types of vegetables"
+            ],
+            "identifier":[  
+               "lccn:Â 82072144",
+               "librarycloud: 001098096"
+            ]
+         },
+         {  
+            "title":"Peanuts, state-level production costs, characteristics and input use, 1991",
+            "creator":"Brooks, Nora L.",
+            "contributor":[  
+               "Ali, Mir B.",
+               "United States Department of Agriculture. Economic Research Service."
+            ],
+            "type":[  
+               "Text",
+               "bibliography"
+            ],
+            "publisher":[  
+               "U.S. Dept. of Agriculture, Economic Research Service",
+               "ERS-NASS [distributor"
+            ],
+            "language":"eng",
+            "format":[  
+               "print",
+               "ii, 29 p. : ill., map. ; 28 cm."
+            ],
+            "description":[  
+               "Nora L. Brooks, Mir B. Ali.",
+               "Cover title.",
+               "\"September 1994\"--P. i.",
+               "Chiefly tables.",
+               "\"Keywords: Costs of production, State-level, peanuts, quota, enterprise accounts, returns, production inputs, farm characteristics.\"--P. i.",
+               "Includes bibliographical references (p. 6)."
+            ],
+            "subject":[  
+               "Peanuts--States--Costs",
+               "Peanuts--United States--States--Costs--Statistics",
+               "Peanut products--States--Costs",
+               "Peanut products--United States--States--Costs--Statistics",
+               "Peanut industry--States--Costs",
+               "Peanut industry--United States--States--Costs--Statistics",
+               "Social sciences -- Industries. Land use. Labor -- Special industries and trades -- Agricultural industries -- Vegetables"
+            ],
+            "coverage":[  
+               "United States",
+               "United States",
+               "United States"
+            ],
+            "relation":"Statistical bulletin ; no. 890",
+            "identifier":"librarycloud: 005982068"
+         }
+      ]
+   }
+}
