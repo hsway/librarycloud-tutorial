@@ -193,8 +193,95 @@ data: {q : searchterm},
 
 Next, we start to supply arguments to the AJAX function (notice, in JSON notation). First is the URL of the LibraryCloud API. Second, we specify that we are going to use a GET HTTP request. The most important thing to know about GET requests is that we will be sending the search term as a URL parameter (e.g. `?q=peanuts`). (For more on this, try Googling GET vs. POST.) In the `data` section, we associate our variable `searchterm` with the `q` URL parameter.
 
+```javascript
+success: function(r){
+// alert(JSON.stringify(r));
+displayResults(r);
+},
+```
 
+Here, we specify what to do if the AJAX call is successful (i.e. if data is returned from LibraryCloud) - namely, display the search results on the webpage. To do this, we call the `displayResults()` function, (which we're about to write) on the data returned from LibraryCloud. If you un-comment the `alert` line, the raw JSON results will be echoed to the user prior to the results displaying. I added this in as a debugging measure, but it's obviously not something you'll want your users to see in the end.
+
+```javascript
+error: function(e){
+alert("Something went wrong: " + e);
+}
+```
+
+Here, we specify what to do if the AJAX call fails (i.e. no data is returned from LibraryCloud). In this case, all we do is send a popup to the user saying "Something went wrong."
+
+```javascript
+    });
+} // end doSearch function
+```
+
+These funky brackets end the jQuery `$.ajax()` function, and then the `doSearch()` function.
 
 ###displayResults()
+
+Here's the full code for the next JavaScript function, `displayResults()`:
+
+```javascript
+// display the results of the query
+function displayResults(results){
+
+	// get the div where the results will be shown
+	var showdiv = document.getElementById("resultsdiv");
+
+	// empty that div of its current contents
+	showdiv.innerHTML = "";
+
+	var titleInfo, title, authorInfo,author; // create a variable or two
+
+	// cycle through each of the elements of the results array
+	for (i=0; i< results.items.dc.length; i++){
+		// get the author
+		authorInfo = results.items.dc[i].creator;
+		// if no "creator", look for a "contributor"
+		if (authorInfo == undefined){
+			authorInfo = results.items.dc[i].contributor;
+		}
+		// if there was no author key, provide some helpful content
+		if (authorInfo == undefined){
+			authorInfo = "[No author listed]";
+		}
+		// is it an array?
+		if ($.isArray(authorInfo)){
+			author = authorInfo.join("; ");
+		}
+		else { // if it's not an Array
+			author = authorInfo;
+		}
+
+		// get the title
+		titleInfo = results.items.dc[i].title;
+		// if there was no title key, provide some helpful content
+		if (titleInfo == undefined){
+			titleInfo = "[No title listed]";
+		}
+		// is it an array?
+		if ($.isArray(titleInfo)){
+			title = titleInfo.join(" - ");
+		}
+		else { // if it's not an Array
+			title = titleInfo;
+		}
+
+		// create a new div for the title and add it to the page
+		var currentcontent = showdiv.innerHTML;
+		showdiv.innerHTML = currentcontent + "<div class='oneresult'><span class='titleclass'>" + title + "</span>, by <span class='authorclass'>" + author + "</span></div>";
+
+	} // end of for loop
+
+} //end displayResults function
+```
+
+One more time, line by line:
+
+```javascript
+function displayResults(results){
+```
+
+Here, we begin writing the function. The only difference from `doSearch()` is that we supply an argument to the `displayResults()` function here, called `results`. This variable contains the JSON data returned from LibraryCloud when it is called in our program.
 
 ##Part 3: CSS (style!)
