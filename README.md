@@ -8,7 +8,7 @@ Prerequisite: a basic understanding of HTML.
 
 Software requirements: a text editor and web browser.
 
-## Part 1: HTML
+## Part 1: HTML (content!)
 
 First, create a folder on your computer where you'll store the files you're about to write. Call it something like "librarycloud-tutorial".
 
@@ -104,12 +104,15 @@ This provides the button to click next to the search box. The onclick attribute 
 <div id="resultsdiv"></div>
 ```
 
-This div provides a chunk of the page where search results will be displayed. Note that it's blank (no content between the opening and closing tags) for now. The id "resultsdiv" uniquely identifies this tag.
-
-
-
-## for copy/paste
+This div reserves a chunk of the page where search results will be displayed. Note that it's blank (no content between the opening and closing tags) for now. The id "resultsdiv" uniquely identifies this tag.
 
 ```html
-
+	</body>
+</html>
 ```
+
+These tags close the body, or content, portion of the page, and then the HTML document as a whole.
+
+##Part 2: JavaScript (functionality!)
+
+##Part 3: CSS (style!)
