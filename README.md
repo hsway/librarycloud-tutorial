@@ -279,9 +279,28 @@ function displayResults(results){
 One more time, line by line:
 
 ```javascript
+// display the results of the query
 function displayResults(results){
 ```
 
 Here, we begin writing the function. The only difference from `doSearch()` is that we supply an argument to the `displayResults()` function here, called `results`. This variable contains the JSON data returned from LibraryCloud when it is called in our program.
+
+
+```javascript
+// get the div where the results will be shown
+var showdiv = document.getElementById("resultsdiv");
+// empty that div of its current contents
+showdiv.innerHTML = "";
+```
+
+Here, we find the `resultsdiv` chunk of our HTML page. Whether or not that chuck contains content (it won't if you're running your first search; it will if you've already run >= 1 search), we remove it by setting it to an empty string, specified as `""`.
+
+```javascript
+var titleInfo, title, authorInfo, author; // create a variable or two
+```
+
+Here, we tell the program that we want to use four new variables. These variables work much like in an algebra equation, but we aren't yet associating them with values (e.g. x=0). We're just reserving those terms, and the next section will supply values to those terms.
+
+
 
 ##Part 3: CSS (style!)

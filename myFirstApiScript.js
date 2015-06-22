@@ -34,7 +34,7 @@ function displayResults(results){
 	// empty that div of its current contents
 	showdiv.innerHTML = "";
 
-	var titleInfo, title, authorInfo,author; // create a variable or two
+	var titleInfo, title, authorInfo, author; // create a variable or two
 
 	// cycle through each of the elements of the results array
 	for (i=0; i< results.items.dc.length; i++){
