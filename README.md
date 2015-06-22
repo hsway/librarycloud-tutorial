@@ -70,7 +70,7 @@ This line tells the browser to load the CSS file we're about to write. This file
 ```html
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script type="text/javascript" src="myFirstApiScript.js"></script>
-'''
+```
 
 These lines thell the browser to load two JavaScript files. The first is the jQuery library (a very helpful set of pre-written JavaScript functions), which we're loading via a URL, or "content delivery network" (CDN). The second is a JavaScript file that we're about to write together. This will be called myFirstApiScript.js, and it will be saved in the same folder as this HTML file (and style.css).
 
