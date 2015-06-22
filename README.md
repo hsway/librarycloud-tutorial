@@ -86,7 +86,27 @@ These lines close the header portion of the page, and open the page body, i.e. t
 <p>This page lets you search Harvard Library's collection.</p>
 ```
 
-The page's main title, in <h1> tags, and introductory blurb, in regular <p> tags.
+The page's main title, in h1 tags, and introductory blurb, in regular p tags.
+
+```html
+<input type="text" id="searchbox">
+```
+
+This provides the text input field that will be used as the search box. The id "searchbox" identifies this tag uniquely, which will come in handy when we get to writing JavaScript.
+
+```html
+<input type="submit" value="Search!" onclick="doSearch()">
+```
+
+This provides the button to click next to the search box. The onclick attribute tells the browser to execute the doSearch() JavaScript function, which we'll be writing momentarily, when the button is clicked.
+
+```html
+<div id="resultsdiv"></div>
+```
+
+This div provides a chunk of the page where search results will be displayed. Note that it's blank (no content between the opening and closing tags) for now. The id "resultsdiv" uniquely identifies this tag.
+
+
 
 ## for copy/paste
 
