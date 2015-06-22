@@ -301,6 +301,103 @@ var titleInfo, title, authorInfo, author; // create a variable or two
 
 Here, we tell the program that we want to use four new variables. These variables work much like in an algebra equation, but we aren't yet associating them with values (e.g. x=0). We're just reserving those terms, and the next section will supply values to those terms.
 
+```javascript
+// cycle through each of the elements of the results array
+for (i=0; i< results.items.dc.length; i++){
+```
 
+This is a common construct in any programming language called a "for loop". Here, we're saying that we want to execute the same code (until you see the `// end of for loop` comment) multiple times - in this case, we want to run it for each work matching your search term returned from LibraryCloud.
+
+```javascript
+authorInfo = results.items.dc[i].creator;
+// if no "creator", look for a "contributor"
+if (authorInfo == undefined){
+    authorInfo = results.items.dc[i].contributor;
+}
+// if there was no author key, provide some helpful content
+if (authorInfo == undefined){
+    authorInfo = "[No author listed]";
+}
+// is it an array?
+if ($.isArray(authorInfo)){
+    author = authorInfo.join("; ");
+}
+else { // if it's not an Array
+    author = authorInfo;
+}
+```
+
+This chunk of code pulls the author information out of the LibraryCloud JSON in the "creator" or "contributor" fields. If no data is present in either field, the text [No author listed] is supplied. If multiple authors are supplied, they are concatenated with a semicolon.
+
+```javascript
+// get the title
+titleInfo = results.items.dc[i].title;
+// if there was no title key, provide some helpful content
+if (titleInfo == undefined){
+    titleInfo = "[No title listed]";
+}
+// is it an array?
+if ($.isArray(titleInfo)){
+    title = titleInfo.join(" - ");
+}
+else { // if it's not an Array
+    title = titleInfo;
+}
+```
+
+This chunk of code pulls the title information from the LibraryCloud JSON "title" field. If no data is present in this field, the text [No title listed] is supplied. If multiple titles are supplied, they are concatenated with a semicolon.
+
+```javascript
+// create a new div for the title and add it to the page
+var currentcontent = showdiv.innerHTML;
+```
+
+Here, we take any content currently in the `resultsdiv` and store it in a variable called `currentcontent`.
+
+```javascript
+showdiv.innerHTML = currentcontent + "<div class='oneresult'><span class='titleclass'>" + title + "</span>, by <span class='authorclass'>" + author + "</span></div>";
+```
+
+Here, we append a new `div` containing our next search result to the current contents of `resultsdiv`. This process will repeat for each search result returned from LibraryCloud.
+
+```javascript
+    } // end of for loop
+} //end displayResults function
+```
+
+Here, we close the for loop, and then the `displayResults()` function. And we're done with JavaScript!
 
 ##Part 3: CSS (style!)
+
+Now, your search application *should* work just as is. But, if you want it to look prettier, add a new file to the same folder you've been using called `style.css`. Here are the contents of that file:
+
+```css
+/*styles for my first API script*/
+
+.authorclass {
+	color: green;
+}
+
+.oneresult {
+	background-color: #BCFFDC;
+	width: 500px;
+	margin-top: 10px;
+	font-family: "Helvetica Neue", Helvetica, Arial, Verdana, Sans Serif;
+}
+
+.titleclass {
+	color: blue;
+}
+```
+
+Notice that these styles are based on the `class` attributes specified in this line in the JavaScript file:
+
+```javascript
+showdiv.innerHTML = currentcontent + "<div class='oneresult'><span class='titleclass'>" + title + "</span>, by <span class='authorclass'>" + author + "</span></div>";
+```
+
+Now, maybe your program isn't the world's ugliest library catalog after all! Feel free to modify the styles as you like.
+
+##License
+
+(cc) Creative Commons CC-BY: May be used in whole or in part without asking permission, provided its authorship is acknowledged and a link back to this page [link](https://github.com/hsway/librarycloud-tutorial/) is provided.
