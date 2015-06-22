@@ -400,4 +400,4 @@ Now, maybe your program isn't the world's ugliest library catalog after all! Fee
 
 ##License
 
-(cc) Creative Commons CC-BY: May be used in whole or in part without asking permission, provided its authorship is acknowledged and a link back to this page [link](https://github.com/hsway/librarycloud-tutorial/) is provided.
+(cc) Creative Commons CC-BY: May be used in whole or in part without asking permission, provided its authorship is acknowledged and a link back to this page [[link]](https://github.com/hsway/librarycloud-tutorial/) is provided.
