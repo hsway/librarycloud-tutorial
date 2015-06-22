@@ -1,6 +1,6 @@
 ##Intro
 
-This code and accompanying tutorial will allow you to create a basic library-flavored "search box" web page. Search results are returned from Harvard's [LibraryCloud](https://wiki.harvard.edu/confluence/x/FoJUC) API. These materials are intended as an introduction to APIs and how to use them in client applications.
+This code and accompanying tutorial will allow you to create a basic library-flavored "search box" web page (some might even call it a web application). Search results are returned from Harvard's [LibraryCloud](https://wiki.harvard.edu/confluence/x/FoJUC) API. These materials are intended as an introduction to APIs and how to use them in client applications.
 
 Inspired by [David Weinberger](http://hyperorg.com/misc/myFirstApiScript/myFirstAPIScript-HarvardLibCloud/myFirstApiScript_article.html).
 
@@ -8,7 +8,7 @@ Prerequisite: a basic understanding of HTML.
 
 Software requirements: a text editor and web browser.
 
-## Part 1: HTML (content!)
+##Part 1: HTML (content!)
 
 First, create a folder on your computer where you'll store the files you're about to write. Call it something like "librarycloud-tutorial".
 
@@ -114,5 +114,13 @@ This div reserves a chunk of the page where search results will be displayed. No
 These tags close the body, or content, portion of the page, and then the HTML document as a whole.
 
 ##Part 2: JavaScript (functionality!)
+
+Let's break the JavaScript file into two parts: one for each function, doSearch() and displayResults(). Think of a function as a chunk of code that can be reused over and over again - in this case, when the search button is clicked.
+
+###doSearch()
+
+First, create a new file in your text editor called `myFirstApiScript.js` (case sensitive). It should be in the same folder as myFirstApiScript.html.
+
+###displayResults()
 
 ##Part 3: CSS (style!)
