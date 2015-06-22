@@ -22,7 +22,7 @@ Here's the full HTML code for this file (your choice whether to key it in or cop
 	<head>
 		<title>My first API script</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script type="text/javascript" src="myFirstApiScript.js"></script>
 	</head>
 	<body>
@@ -49,7 +49,44 @@ This "document type declaration" tells the web browser that it's loading an HTML
 
 This "tag" begins the HTML document.
 
+```html
+<head>
+```
 
+This tag begins the header information, which is important, but does not display directly on the page.
+
+```html
+<title>My first API script</title>
+```
+
+This line tells the browser what to display in the title bar (or tab).
+
+```html
+<link rel="stylesheet" type="text/css" href="style.css">
+```
+
+This line tells the browser to load the CSS file we're about to write. This file will be called style.css and it will be saved in the same folder as this HTML file.
+
+```html
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript" src="myFirstApiScript.js"></script>
+'''
+
+These lines thell the browser to load two JavaScript files. The first is the jQuery library (a very helpful set of pre-written JavaScript functions), which we're loading via a URL, or "content delivery network" (CDN). The second is a JavaScript file that we're about to write together. This will be called myFirstApiScript.js, and it will be saved in the same folder as this HTML file (and style.css).
+
+```html
+</head>
+<body>
+```
+
+These lines close the header portion of the page, and open the page body, i.e. the content that will be displayed on the page.
+
+```html
+<h1>Searching Harvard Library</h1>
+<p>This page lets you search Harvard Library's collection.</p>
+```
+
+The page's main title, in <h1> tags, and introductory blurb, in regular <p> tags.
 
 ## for copy/paste
 
