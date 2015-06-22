@@ -152,6 +152,49 @@ function doSearch(){
 } // end doSearch function
 ```
 
+Again, let's go through this line by line.
+
+```javascript
+// Do the search
+function doSearch(){
+```
+
+This is the beginning of the `doSearch()` function. The first line, beginning with `//`, is a comment. This is the standard notation for inline comments in JavaScript.
+
+```javascript
+var searchbx = document.getElementById("searchbox"); // get the searchbox
+var searchterm = searchbx.value; // get the search term
+```
+
+Here, we're scanning the HTML page for the search term entered by the user. First, we look for the search box itself, using its id attribute, `"searchbox"`. In the second line, we look for the value entered in the search box itself, and store it in a variable called `searchterm`.
+
+```javascript
+// if it's blank, give up
+if (searchterm == ""){
+    alert("Enter a search term"); // put up an explanation for the user
+    return; // jump out of this funciton
+}
+```
+
+This "if block" covers the case in which the user hasn't yet entered a search term. The user is alerted, and no further action is taken.
+
+```javascript
+// Do the API call
+$.ajax({
+```
+
+This is where things get tricky. Whenever you see `$` in JavaScript code, it most likely means that you're seeing jQuery. In this case, jQuery has provided us with a function to send an AJAX call from your application. What does that mean? In the old days, if you wanted to update content on a web page, you had to reload the entire webpage. AJAX is a method that allows us to reload only a portion of a webpage (in this case, the part that shows search results), without reloading the whole thing. Much nicer, and faster, for the user!
+
+```javascript
+url: 'http://api.lib.harvard.edu/v2/items.dc.json',
+type: 'GET',
+data: {q : searchterm},
+```
+
+Next, we start to supply arguments to the AJAX function (notice, in JSON notation). First is the URL of the LibraryCloud API. Second, we specify that we are going to use a GET HTTP request. The most important thing to know about GET requests is that we will be sending the search term as a URL parameter (e.g. `?q=peanuts`). (For more on this, try Googling GET vs. POST.) In the `data` section, we associate our variable `searchterm` with the `q` URL parameter.
+
+
+
 ###displayResults()
 
 ##Part 3: CSS (style!)
