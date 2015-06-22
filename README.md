@@ -4,7 +4,7 @@ https://help.github.com/articles/github-flavored-markdown/
 
 another test update
 
-'''
+```html
 <!DOCTYPE html>
 <html>
 	<head>
@@ -21,6 +21,6 @@ another test update
 		<div id="resultsdiv"></div>
 	</body>
 </html>
-'''
+```
 
 text below
