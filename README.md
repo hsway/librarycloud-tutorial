@@ -1,6 +1,20 @@
-#heading 1
+##Intro
 
-##heading 2
+This code and accompanying tutorial will allow you to create a basic library-flavored "search box" web page. Search results are returned from Harvard's [LibraryCloud](https://wiki.harvard.edu/confluence/x/FoJUC) API. These materials are intended as an introduction to APIs and how to use them in client applications.
+
+Inspired by [David Weinberger](http://hyperorg.com/misc/myFirstApiScript/myFirstAPIScript-HarvardLibCloud/myFirstApiScript_article.html).
+
+Prerequisite: a basic understanding of HTML.
+
+Software requirements: a text editor and web browser.
+
+## Part 1: HTML
+
+First, create a folder on your computer where you'll store the files you're about to write. Call it something like "librarycloud-tutorial".
+
+Now, open your text editor, and create a new file called myFirstApiScript.html (case-sensitive).
+
+Here's the full HTML code for this file (your choice whether to key it in or copy and paste):
 
 ```html
 <!DOCTYPE html>
@@ -20,45 +34,25 @@
 	</body>
 </html>
 ```
-text in between
 
-```javascript
-// Do the search
-function doSearch(){
+Let's go through it line by line.
 
-	var searchbx = document.getElementById("searchbox"); // get the searchbox
-	var searchterm = searchbx.value; // get the search term
-
-	// if it's blank, give up
-	if (searchterm == ""){
-		alert("Enter a search term"); // put up an explanation for the user
-		return; // jump out of this funciton
-	}
-
-	// Do the API call
-	$.ajax({
-	        url: 'http://api.lib.harvard.edu/v2/items.dc.json',
-	        type: 'GET',
-	        data: {q : searchterm},
-	        success: function(r){
-	        // alert(JSON.stringify(r));
-	        displayResults(r);
-	        },
-	        error: function(e){
-	            alert("Something went wrong: " + e);
-	        }
-	});
-} // end doSearch function
+```html
+<!DOCTYPE html>
 ```
 
-text in between
+This "document type declaration" tells the web browser that it's loading an HTML document, specifically an HTML5 document.
 
-```css
-/*styles for my first API script*/
-
-.authorclass {
-	color: green;
-}
+```html
+<html>
 ```
 
-text below
+This "tag" begins the HTML document.
+
+
+
+## for copy/paste
+
+```html
+
+```
