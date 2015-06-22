@@ -4,7 +4,7 @@ https://help.github.com/articles/github-flavored-markdown/
 
 another test update
 
-'''html
+'''HTML
 <!DOCTYPE html>
 <html>
 	<head>
